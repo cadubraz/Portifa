@@ -1,0 +1,103 @@
+@charset "UTF-8"
+@font-face {
+    font-family: trueno;
+    src: url(fonte/TruenoRg.otf);
+}
+
+body{
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.26);
+    min-width: 300px;
+    max-width: 100%;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.37);    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin:10px;
+    margin-left: 200px;
+    
+}
+
+a{
+    color: #202020;
+}
+
+a:hover{
+    color:#FFBD3A;
+}
+
+#menu{
+    
+}
+.menu{
+    text-decoration: none;
+    margin: auto;
+    font-family: trueno;
+    padding-left: 90px;
+    margin-left: 100px;
+    
+}
+
+main{
+    margin-left: 200px;
+}
+
+h1{
+    font-family: trueno;
+    font-size: 30px;
+}
+
+a > h2{
+    font-family: trueno;
+    background-color: #202020;
+    color: #FFBD3A;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+a > h2:hover{
+    background-color: #3b3b3b;
+    color:#e6a31f;
+    text-decoration: none;
+}
+
+#pagina1{
+    display: flex;
+    align-items: center;
+}
+
+.programas{
+    
+}
+
+#bloco12{
+    padding-left: 290px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: #202020;
+    padding: 40px;
+    margin-TOP: 150px;
+}
+
+.redes{
+    padding: 30px;
+}
+
+
+
+
+
+
+
